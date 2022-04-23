@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+#layout {
+  display: grid;
+  gap: 4px;
+  grid-template-columns: 80px auto;
+  height: 100vh;
+}
+
+#sidebar {
+  background: #f0f0f0;
+  border-right: 1px solid #ccc;
+  grid-column: 1 / 2;
+  padding: 10px;
+}
+
+#content {
+  grid-column: 2 / 3;
+}
